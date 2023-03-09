@@ -13,7 +13,43 @@
   </head>
   <body>
     <div class="principal">
-        <div class="menu"></div>
+        <div class="menu">
+          <div class="paises">
+            <div class="renglon">
+              Selecciona el Pais
+            </div>
+            <!--Este div contendra imagenes-->
+            <div class="renglon">
+              <div class="bandera">
+                <img src="./images/mx.webp" alt="" class="logoImg" id="MX">
+              </div>
+              <div class="bandera">
+                <img src="./images/us.webp" alt="" class="logoImg" id="USA">
+              </div>
+              <div class="bandera">
+                <img src="./images/jp.webp" alt="" class="logoImg" id="JP">
+              </div>
+              <div class="bandera">
+                <img src="./images/br.webp" alt="" class="logoImg" id="BR">
+              </div>
+              <div class="bandera">
+                <img src="./images/ES.webp" alt="" class="logoImg" id="ES">
+              </div>
+              <div class="bandera">
+                <img src="./images/sz.webp" alt="" class="logoImg" id="CH">
+              </div>
+            </div>
+          </div>
+          <!--Este div tiene dos clases; renglon y columna-->
+          <div class="renglon columna">
+            Buscar Album
+            <input type="text"
+                  placeholder="Album"
+                  id="inputAlbum" 
+                  class="inputBuscador">
+            <button id="btnBuscar">Buscar</button>
+          </div>
+        </div>
         <div class="contenedor">
           <!--Hacemos un div dentro del contenedor para el buscador-->
             <div class="buscador">
